@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="222">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="211">
+            <objects>
+                <viewController id="212" sceneMemberID="viewController" customClass="Register">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="207"/>
+                        <viewControllerLayoutGuide type="bottom" id="208"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="213">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="0.56862745098039214" blue="1" alpha="1"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="1434" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Firstname">
+                                <rect key="frame" x="42" y="59" width="290" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="1696" firstAttribute="width" secondItem="1434" secondAttribute="height" multiplier="29:3"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1696"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="1696"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="1435" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Lastname">
+                                <rect key="frame" x="42" y="105" width="290" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="1700" firstAttribute="width" secondItem="1435" secondAttribute="height" multiplier="29:3"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1700"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="1700"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="1437" translatesAutoresizingMaskIntoConstraints="NO" placeholder="City">
+                                <rect key="frame" x="42" y="150" width="290" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="1716" firstAttribute="width" secondItem="1437" secondAttribute="height" multiplier="29:3"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1716"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="1716"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="1438" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Street">
+                                <rect key="frame" x="42" y="197" width="290" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="1720" firstAttribute="width" secondItem="1438" secondAttribute="height" multiplier="29:3"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1720"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="1720"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="1439" translatesAutoresizingMaskIntoConstraints="NO" placeholder="email">
+                                <rect key="frame" x="42" y="242" width="290" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="1724" firstAttribute="width" secondItem="1439" secondAttribute="height" multiplier="29:3"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1724"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="1724"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="1440" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Password">
+                                <rect key="frame" x="42" y="288" width="290" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="1728" firstAttribute="width" secondItem="1440" secondAttribute="height" multiplier="29:3"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1728"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="1728"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="1441" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Repeat pasword">
+                                <rect key="frame" x="42" y="335" width="290" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="1732" firstAttribute="width" secondItem="1441" secondAttribute="height" multiplier="29:3"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1732"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="1732"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="2035" translatesAutoresizingMaskIntoConstraints="NO" usesAttributedText="YES" allowsEditingTextAttributes="YES">
+                                <rect key="frame" x="42" y="373" width="290" height="162"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.">
+                                        <attributes>
+                                            <color key="NSColor" colorSpace="calibratedRGB" red="0.996078431372549" green="1" blue="0.996078431372549" alpha="1"/>
+                                            <font key="NSFont" name="HelveticaNeue" family="Helvetica Neue" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="0.56862745098039214" blue="1" alpha="1"/>
+                                    <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <mask key="constraints">
+                                        <include reference="4095"/>
+                                    </mask>
+                                </variation>
+                                <constraints>
+                                    <constraint id="4095" firstAttribute="width" secondItem="2035" secondAttribute="height" multiplier="145:81"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="4095"/>
+                                    </mask>
+                                </variation>
+                            </textView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="2353" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="42" y="554" width="51" height="31"/>
+                                <variation key="heightClass=regular-widthClass=compact"/>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4082" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="132" y="554" width="200" height="30"/>
+                                <state key="normal" title="Accept AGB &amp; register">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <constraints>
+                                    <constraint id="4100" firstAttribute="width" secondItem="4082" secondAttribute="height" multiplier="20:3"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="4100"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="4100"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint id="1693" firstItem="1434" firstAttribute="top" secondItem="207" secondAttribute="bottom" constant="39"/>
+                            <constraint id="1694" firstItem="213" firstAttribute="trailingMargin" secondItem="1434" secondAttribute="trailing" constant="27"/>
+                            <constraint id="1695" firstItem="1434" firstAttribute="leading" secondItem="213" secondAttribute="leadingMargin" constant="26"/>
+                            <constraint id="1697" firstItem="1435" firstAttribute="top" secondItem="1434" secondAttribute="bottom" constant="16"/>
+                            <constraint id="1698" firstItem="1435" firstAttribute="leading" secondItem="213" secondAttribute="leadingMargin" constant="26"/>
+                            <constraint id="1699" firstItem="213" firstAttribute="trailingMargin" secondItem="1435" secondAttribute="trailing" constant="27"/>
+                            <constraint id="1704" firstItem="1437" firstAttribute="top" secondItem="1435" secondAttribute="bottom" constant="15"/>
+                            <constraint id="1705" firstItem="213" firstAttribute="trailingMargin" secondItem="1437" secondAttribute="trailing" constant="27"/>
+                            <constraint id="1715" firstItem="1437" firstAttribute="leading" secondItem="213" secondAttribute="leadingMargin" constant="26"/>
+                            <constraint id="1717" firstItem="1438" firstAttribute="top" secondItem="1437" secondAttribute="bottom" constant="17"/>
+                            <constraint id="1718" firstItem="1438" firstAttribute="leading" secondItem="213" secondAttribute="leadingMargin" constant="26"/>
+                            <constraint id="1719" firstItem="213" firstAttribute="trailingMargin" secondItem="1438" secondAttribute="trailing" constant="27"/>
+                            <constraint id="1721" firstItem="1439" firstAttribute="leading" secondItem="213" secondAttribute="leadingMargin" constant="26"/>
+                            <constraint id="1722" firstItem="1439" firstAttribute="top" secondItem="1438" secondAttribute="bottom" constant="15"/>
+                            <constraint id="1723" firstItem="213" firstAttribute="trailingMargin" secondItem="1439" secondAttribute="trailing" constant="27"/>
+                            <constraint id="1725" firstItem="1440" firstAttribute="top" secondItem="1439" secondAttribute="bottom" constant="16"/>
+                            <constraint id="1726" firstItem="1440" firstAttribute="leading" secondItem="213" secondAttribute="leadingMargin" constant="26"/>
+                            <constraint id="1727" firstItem="213" firstAttribute="trailingMargin" secondItem="1440" secondAttribute="trailing" constant="27"/>
+                            <constraint id="1729" firstItem="1441" firstAttribute="top" secondItem="1440" secondAttribute="bottom" constant="17"/>
+                            <constraint id="1730" firstItem="1441" firstAttribute="leading" secondItem="213" secondAttribute="leadingMargin" constant="26"/>
+                            <constraint id="1731" firstItem="213" firstAttribute="trailingMargin" secondItem="1441" secondAttribute="trailing" constant="27"/>
+                            <constraint id="2360" firstItem="2353" firstAttribute="leading" secondItem="213" secondAttribute="leadingMargin" constant="26"/>
+                            <constraint id="4084" firstItem="208" firstAttribute="top" secondItem="2353" secondAttribute="bottom" constant="33"/>
+                            <constraint id="4090" firstItem="4082" firstAttribute="top" secondItem="2035" secondAttribute="bottom" constant="19"/>
+                            <constraint id="4091" firstItem="2353" firstAttribute="top" secondItem="2035" secondAttribute="bottom" constant="19"/>
+                            <constraint id="4092" firstItem="2035" firstAttribute="leading" secondItem="213" secondAttribute="leadingMargin" constant="26"/>
+                            <constraint id="4093" firstItem="2035" firstAttribute="top" secondItem="1441" secondAttribute="bottom" constant="8"/>
+                            <constraint id="4094" firstItem="213" firstAttribute="trailingMargin" secondItem="2035" secondAttribute="trailing" constant="27"/>
+                            <constraint id="4096" firstItem="4082" firstAttribute="top" secondItem="2035" secondAttribute="bottom" constant="19"/>
+                            <constraint id="4097" firstItem="4082" firstAttribute="leading" secondItem="2353" secondAttribute="trailing" constant="41"/>
+                            <constraint id="4098" firstItem="213" firstAttribute="trailingMargin" secondItem="4082" secondAttribute="trailing" constant="27"/>
+                            <constraint id="4099" firstItem="208" firstAttribute="top" secondItem="4082" secondAttribute="bottom" constant="34"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="1693"/>
+                                <exclude reference="1694"/>
+                                <exclude reference="1695"/>
+                                <exclude reference="1697"/>
+                                <exclude reference="1698"/>
+                                <exclude reference="1699"/>
+                                <exclude reference="1704"/>
+                                <exclude reference="1705"/>
+                                <exclude reference="1715"/>
+                                <exclude reference="1717"/>
+                                <exclude reference="1718"/>
+                                <exclude reference="1719"/>
+                                <exclude reference="1721"/>
+                                <exclude reference="1722"/>
+                                <exclude reference="1723"/>
+                                <exclude reference="1725"/>
+                                <exclude reference="1726"/>
+                                <exclude reference="1727"/>
+                                <exclude reference="1729"/>
+                                <exclude reference="1730"/>
+                                <exclude reference="1731"/>
+                                <exclude reference="2360"/>
+                                <exclude reference="4084"/>
+                                <exclude reference="4090"/>
+                                <exclude reference="4091"/>
+                                <exclude reference="4092"/>
+                                <exclude reference="4093"/>
+                                <exclude reference="4094"/>
+                                <exclude reference="4096"/>
+                                <exclude reference="4097"/>
+                                <exclude reference="4098"/>
+                                <exclude reference="4099"/>
+                            </mask>
+                            <mask key="subviews">
+                                <exclude reference="2035"/>
+                                <exclude reference="2353"/>
+                                <exclude reference="4082"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="1693"/>
+                                <include reference="1694"/>
+                                <include reference="1695"/>
+                                <include reference="1697"/>
+                                <include reference="1698"/>
+                                <include reference="1699"/>
+                                <include reference="1704"/>
+                                <include reference="1705"/>
+                                <include reference="1715"/>
+                                <include reference="1717"/>
+                                <include reference="1718"/>
+                                <include reference="1719"/>
+                                <include reference="1721"/>
+                                <include reference="1722"/>
+                                <include reference="1723"/>
+                                <include reference="1725"/>
+                                <include reference="1726"/>
+                                <include reference="1727"/>
+                                <include reference="1729"/>
+                                <include reference="1730"/>
+                                <include reference="1731"/>
+                                <include reference="2360"/>
+                                <include reference="4084"/>
+                                <include reference="4090"/>
+                                <include reference="4091"/>
+                                <include reference="4092"/>
+                                <include reference="4093"/>
+                                <include reference="4094"/>
+                                <include reference="4096"/>
+                                <include reference="4097"/>
+                                <include reference="4098"/>
+                                <include reference="4099"/>
+                            </mask>
+                            <mask key="subviews">
+                                <include reference="2035"/>
+                                <include reference="2353"/>
+                                <include reference="4082"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Register" id="214" image="file-list-tick-7.png"/>
+                    <connections>
+                        <outlet property="myRegister" destination="4082" id="name-outlet-4082"/>
+                        <outlet property="myAcceptance" destination="2353" id="name-outlet-2353"/>
+                        <outlet property="myFirstname" destination="1434" id="name-outlet-1434"/>
+                        <outlet property="myLastname" destination="1435" id="name-outlet-1435"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="215" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1033" y="-177"/>
+        </scene>
+        <scene sceneID="216">
+            <objects>
+                <viewController id="217" sceneMemberID="viewController" customClass="Login">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="209"/>
+                        <viewControllerLayoutGuide type="bottom" id="210"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="218">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="0.56862745098039214" blue="1" alpha="1"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="711" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Username">
+                                <rect key="frame" x="42" y="286" width="290" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="3237" firstAttribute="width" secondItem="711" secondAttribute="height" multiplier="29:3"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="3237"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="3237"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="712" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Password">
+                                <rect key="frame" x="42" y="333" width="290" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="3238" firstAttribute="width" secondItem="712" secondAttribute="height" multiplier="29:3"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="3238"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="3238"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="719" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="116" y="451" width="143" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint id="1684" firstItem="719" firstAttribute="centerX" secondItem="218" secondAttribute="centerX"/>
+                            <constraint id="1690" firstItem="719" firstAttribute="leading" secondItem="218" secondAttribute="leadingMargin" constant="114">
+                                <variation key="heightClass=regular-widthClass=compact" constant="100"/>
+                            </constraint>
+                            <constraint id="1691" firstItem="218" firstAttribute="trailingMargin" secondItem="719" secondAttribute="trailing" constant="113">
+                                <variation key="heightClass=regular-widthClass=compact" constant="100"/>
+                            </constraint>
+                            <constraint id="1692" firstItem="210" firstAttribute="top" secondItem="719" secondAttribute="bottom" constant="137"/>
+                            <constraint id="3228" firstItem="711" firstAttribute="top" secondItem="209" secondAttribute="bottom" constant="266"/>
+                            <constraint id="3229" firstItem="218" firstAttribute="trailingMargin" secondItem="711" secondAttribute="trailing" constant="27"/>
+                            <constraint id="3230" firstItem="711" firstAttribute="leading" secondItem="218" secondAttribute="leadingMargin" constant="26"/>
+                            <constraint id="3233" firstItem="712" firstAttribute="top" secondItem="711" secondAttribute="bottom" constant="17"/>
+                            <constraint id="3234" firstItem="719" firstAttribute="top" secondItem="712" secondAttribute="bottom" constant="88"/>
+                            <constraint id="3235" firstItem="218" firstAttribute="trailingMargin" secondItem="712" secondAttribute="trailing" constant="27"/>
+                            <constraint id="3236" firstItem="712" firstAttribute="leading" secondItem="218" secondAttribute="leadingMargin" constant="26"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="1684"/>
+                                <exclude reference="1690"/>
+                                <exclude reference="1691"/>
+                                <exclude reference="1692"/>
+                                <exclude reference="3228"/>
+                                <exclude reference="3229"/>
+                                <exclude reference="3230"/>
+                                <exclude reference="3233"/>
+                                <exclude reference="3234"/>
+                                <exclude reference="3235"/>
+                                <exclude reference="3236"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="1684"/>
+                                <include reference="1690"/>
+                                <include reference="1691"/>
+                                <include reference="1692"/>
+                                <include reference="3228"/>
+                                <include reference="3229"/>
+                                <include reference="3230"/>
+                                <include reference="3233"/>
+                                <include reference="3234"/>
+                                <include reference="3235"/>
+                                <include reference="3236"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Login" id="219" image="circle-user-7.png"/>
+                    <connections>
+                        <outlet property="myLoginButton" destination="719" id="name-outlet-719"/>
+                        <outlet property="myUsername" destination="711" id="name-outlet-711"/>
+                        <outlet property="myPassword" destination="712" id="name-outlet-712"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="220" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="504" y="-175"/>
+        </scene>
+        <scene sceneID="221">
+            <objects>
+                <tabBarController id="222" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="225">
+                        <rect key="frame" x="0.0" y="551" width="600" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="217" kind="relationship" relationship="viewControllers" id="223"/>
+                        <segue destination="212" kind="relationship" relationship="viewControllers" id="224"/>
+                        <segue id="501" destination="233" kind="relationship" relationship="viewControllers"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="226" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-24" y="21"/>
+        </scene>
+        <scene sceneID="232">
+            <objects>
+                <viewController id="233" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="230"/>
+                        <viewControllerLayoutGuide type="bottom" id="231"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="234">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="0.56862745098039214" blue="1" alpha="1"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Read" id="437" image="newspaper-7.png"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="235" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1559" y="-176"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="circle-user-7.png" width="30" height="30"/>
+        <image name="album-simple-7.png" width="30" height="30"/>
+        <image name="business-bag-7.png" width="30" height="30"/>
+        <image name="file-list-tick-7.png" width="30" height="30"/>
+        <image name="newspaper-7.png" width="30" height="30"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination" type="retina47"/>
+    </simulatedMetricsContainer>
+</document>
