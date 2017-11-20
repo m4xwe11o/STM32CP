@@ -6,7 +6,7 @@ namespace STM32CP.iOS
 {
     public partial class Login : UIViewController
     {
-        public Login(IntPtr handle) : base(handle)
+        public Login (IntPtr handle) : base (handle)
         {
         }
         public override void ViewDidLoad()
