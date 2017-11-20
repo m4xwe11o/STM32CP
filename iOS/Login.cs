@@ -4,6 +4,9 @@ using UIKit;
 
 namespace STM32CP.iOS
 {
+    /*  The Login class manages the login tab
+     *  The shared part is to manage the sql statement and use the appropriate return value to proceed
+     */
     public partial class Login : UIViewController
     {
         public Login (IntPtr handle) : base (handle)
@@ -17,10 +20,10 @@ namespace STM32CP.iOS
                 var password = myPassword;
                 if (password.Text.Length == 0 || username.Text.Length == 0)
                 {
-                    new UIAlertView("Error", "Username or password is emty!", null, "OK", null).Show();
+                    AppAlert.Message(AppAlert.error, "Username or password is emty!", AppAlert.buttonOk);
                     return;
                 }
-                new UIAlertView("Clicked", username.Text.ToString() + "\n" + password.Text.ToString(), null, "OK", null).Show();
+                AppAlert.Message(AppAlert.info, username.Text.ToString() + "\n" + password.Text.ToString(), AppAlert.buttonOk);
             };
         }
     }

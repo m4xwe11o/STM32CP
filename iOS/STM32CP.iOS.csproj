@@ -85,6 +85,9 @@
     <Reference Include="Calabash">
       <HintPath>..\packages\Xamarin.TestCloud.Agent.0.21.3\lib\Xamarin.iOS\Calabash.dll</HintPath>
     </Reference>
+    <Reference Include="MySql.Data.CF">
+      <HintPath>..\Components\MySQL-Plugin-1.0\lib\ios-unified\MySql.Data.CF.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
@@ -123,6 +126,7 @@
     <Compile Include="Register.designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
+    <Compile Include="AppAlert.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\circle-user-7.png" />
@@ -130,6 +134,12 @@
     <BundleResource Include="Resources\business-bag-7.png" />
     <BundleResource Include="Resources\file-list-tick-7.png" />
     <BundleResource Include="Resources\newspaper-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="MySQL-Plugin">
+      <Version>1.0</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
   </ItemGroup>
   <Import Project="..\STM32CP\STM32CP.projitems" Label="Shared" Condition="Exists('..\STM32CP\STM32CP.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
