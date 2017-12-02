@@ -9,6 +9,8 @@
     <Import_RootNamespace>STM32CP</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)MyClass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Alert.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MySQLServer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Arcticle.cs" />
   </ItemGroup>
 </Project>
