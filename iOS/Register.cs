@@ -35,14 +35,14 @@ namespace STM32CP.iOS
                 {
                     if (firstname.Text.Length == 0 || lastname.Text.Length == 0)
                     {
-                        AppAlert.Message(AppAlert.error, "Please fill in all fields!", AppAlert.buttonOk);
+                        Alert.Message(Alert.error, "Please fill in all fields!", Alert.buttonOk);
                         return;
                     }
-                    AppAlert.Message(AppAlert.input, firstname.Text.ToString() + "\n" + lastname.Text.ToString(), AppAlert.buttonOk);
+                    Alert.Message(Alert.input, firstname.Text.ToString() + "\n" + lastname.Text.ToString(), Alert.buttonOk);
                 }
                 else
                 {
-                    AppAlert.Message(AppAlert.error, "Please accept the AGB!", AppAlert.buttonOk);
+                    Alert.Message(Alert.error, "Please accept the AGB!", Alert.buttonOk);
                 }
             };
         }

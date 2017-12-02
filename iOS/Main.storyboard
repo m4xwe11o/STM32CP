@@ -93,10 +93,10 @@
                                     </mask>
                                 </variation>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="1439" translatesAutoresizingMaskIntoConstraints="NO" placeholder="email">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="1439" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Email">
                                 <rect key="frame" x="42" y="206" width="291" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                 <constraints>
                                     <constraint id="8218" firstAttribute="width" secondItem="1439" secondAttribute="height" multiplier="97:10"/>
                                 </constraints>
@@ -114,7 +114,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="1440" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Password">
                                 <rect key="frame" x="42" y="246" width="291" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                 <constraints>
                                     <constraint id="8219" firstAttribute="width" secondItem="1440" secondAttribute="height" multiplier="97:10"/>
                                 </constraints>
@@ -132,7 +132,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="1441" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Repeat pasword">
                                 <rect key="frame" x="42" y="286" width="291" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                 <constraints>
                                     <constraint id="8220" firstAttribute="width" secondItem="1441" secondAttribute="height" multiplier="97:10"/>
                                 </constraints>
@@ -378,7 +378,7 @@
                         <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="0.56862745098039214" blue="1" alpha="1"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="711" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Username">
-                                <rect key="frame" x="41" y="286" width="293" height="30.5"/>
+                                <rect key="frame" x="41" y="270" width="293" height="30.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <constraints>
@@ -396,9 +396,9 @@
                                 </variation>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="712" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Password">
-                                <rect key="frame" x="41" y="326" width="293" height="30.5"/>
+                                <rect key="frame" x="41" y="310.5" width="293" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                 <constraints>
                                     <constraint id="3238" firstAttribute="width" secondItem="712" secondAttribute="height" multiplier="29:3"/>
                                 </constraints>
@@ -414,7 +414,7 @@
                                 </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="719" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="116" y="456.5" width="143" height="61.5"/>
+                                <rect key="frame" x="116" y="390.5" width="143" height="127.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Login">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -433,7 +433,9 @@
                             <constraint id="1692" firstItem="210" firstAttribute="top" secondItem="719" secondAttribute="bottom" constant="137">
                                 <variation key="heightClass=regular-widthClass=compact" constant="100"/>
                             </constraint>
-                            <constraint id="3228" firstItem="711" firstAttribute="top" secondItem="209" secondAttribute="bottom" constant="266"/>
+                            <constraint id="3228" firstItem="711" firstAttribute="top" secondItem="209" secondAttribute="bottom" constant="266">
+                                <variation key="heightClass=regular-widthClass=compact" constant="250"/>
+                            </constraint>
                             <constraint id="3229" firstItem="218" firstAttribute="trailingMargin" secondItem="711" secondAttribute="trailing" constant="27">
                                 <variation key="heightClass=regular-widthClass=compact" constant="25"/>
                             </constraint>
@@ -444,7 +446,7 @@
                                 <variation key="heightClass=regular-widthClass=compact" constant="10"/>
                             </constraint>
                             <constraint id="3234" firstItem="719" firstAttribute="top" secondItem="712" secondAttribute="bottom" constant="88">
-                                <variation key="heightClass=regular-widthClass=compact" constant="100"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="50"/>
                             </constraint>
                             <constraint id="3235" firstItem="218" firstAttribute="trailingMargin" secondItem="712" secondAttribute="trailing" constant="27">
                                 <variation key="heightClass=regular-widthClass=compact" constant="25"/>
@@ -507,6 +509,7 @@
                         <segue destination="217" kind="relationship" relationship="viewControllers" id="223"/>
                         <segue destination="212" kind="relationship" relationship="viewControllers" id="224"/>
                         <segue id="501" destination="233" kind="relationship" relationship="viewControllers"/>
+                        <segue id="9800" destination="9736" kind="relationship" relationship="viewControllers"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="226" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -532,6 +535,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="235" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1559" y="-176"/>
+        </scene>
+        <scene sceneID="9735">
+            <objects>
+                <tableViewController id="9736" sceneMemberID="viewController" customClass="Read">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="9737">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="9740">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9740" id="9741">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="9736" id="9738"/>
+                            <outlet property="delegate" destination="9736" id="9739"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Read" id="9744" image="newspaper-7.png"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9742" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2024" y="-180"/>
         </scene>
     </scenes>
     <resources>

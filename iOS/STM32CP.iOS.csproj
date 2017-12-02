@@ -79,7 +79,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
     <Reference Include="Calabash">
@@ -88,6 +87,13 @@
     <Reference Include="MySql.Data.CF">
       <HintPath>..\Components\MySQL-Plugin-1.0\lib\ios-unified\MySql.Data.CF.dll</HintPath>
     </Reference>
+    <Reference Include="I18N.West" />
+    <Reference Include="System.Data" />
+    <Reference Include="Mono.CSharp" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml.Serialization" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
@@ -127,6 +133,10 @@
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
     <Compile Include="AppAlert.cs" />
+    <Compile Include="Read.cs" />
+    <Compile Include="Read.designer.cs">
+      <DependentUpon>Read.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\circle-user-7.png" />
