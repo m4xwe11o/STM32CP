@@ -14,5 +14,8 @@ namespace STM32CP.iOS
     [Register ("Read")]
     partial class Read
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }

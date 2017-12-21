@@ -50,15 +50,15 @@
     <Reference Include="Mono.Data.Tds" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Data" />
-    <Reference Include="MySql.Data.CF">
-      <HintPath>..\Components\MySQL-Plugin-1.0\lib\android\MySql.Data.CF.dll</HintPath>
-    </Reference>
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Windows" />
     <Reference Include="Mono.CSharp" />
     <Reference Include="I18N" />
     <Reference Include="Mono.Android.Export" />
+    <Reference Include="MySql.Data.CF">
+      <HintPath>..\Components\MySQL-Plugin-1.0\lib\android\MySql.Data.CF.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />

@@ -20,6 +20,14 @@ namespace STM32CP.iOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField myCity { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField myEmail { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField myFirstname { get; set; }
 
         [Outlet]
@@ -28,13 +36,35 @@ namespace STM32CP.iOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField myPassword { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton myRegister { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField myRepeatPassword { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField myStreet { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
             if (myAcceptance != null) {
                 myAcceptance.Dispose ();
                 myAcceptance = null;
+            }
+
+            if (myCity != null) {
+                myCity.Dispose ();
+                myCity = null;
+            }
+
+            if (myEmail != null) {
+                myEmail.Dispose ();
+                myEmail = null;
             }
 
             if (myFirstname != null) {
@@ -47,9 +77,24 @@ namespace STM32CP.iOS
                 myLastname = null;
             }
 
+            if (myPassword != null) {
+                myPassword.Dispose ();
+                myPassword = null;
+            }
+
             if (myRegister != null) {
                 myRegister.Dispose ();
                 myRegister = null;
+            }
+
+            if (myRepeatPassword != null) {
+                myRepeatPassword.Dispose ();
+                myRepeatPassword = null;
+            }
+
+            if (myStreet != null) {
+                myStreet.Dispose ();
+                myStreet = null;
             }
         }
     }
