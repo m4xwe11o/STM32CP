@@ -2,4 +2,7 @@
 <resources>
 	<string name="hello">Hello World, Click Me!</string>
 	<string name="app_name">STM32CP.Droid</string>
+    <string name="LoginFragment_String_TextView">Login</string>
+    <string name="RegisterFragment_String_TextView">Register</string>
+    <string name="ReadingArticleFragment_String_TextView">Reading</string>
 </resources>
