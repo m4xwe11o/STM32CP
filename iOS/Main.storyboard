@@ -493,6 +493,7 @@
                                 <include reference="3234"/>
                                 <include reference="1692"/>
                             </mask>
+                            <color key="tintColor" colorSpace="calibratedRGB" red="0.047058823529411764" green="0.42745098039215684" blue="0.996078431372549" alpha="1"/>
                         </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Login" image="circle-user-7.png" id="219"/>

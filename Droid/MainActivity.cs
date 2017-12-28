@@ -2,6 +2,8 @@
 using Android.Widget;
 using Android.OS;
 using Android.Util;
+using Android.Graphics.Drawables;
+using Android.Graphics;
 
 namespace STM32CP.Droid
 {
@@ -15,7 +17,7 @@ namespace STM32CP.Droid
             base.OnCreate(bundle);  
   
             SetContentView(Resource.Layout.Main);  
-            ActionBar.NavigationMode = ActionBarNavigationMode.Tabs;  
+            ActionBar.NavigationMode = ActionBarNavigationMode.Tabs;
   
             // Add the tabs to Action Bar  
             //AddTab("Login");  

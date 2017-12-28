@@ -75,6 +75,12 @@
     <Reference Include="Xamarin.Android.Support.Fragment">
       <HintPath>..\packages\Xamarin.Android.Support.Fragment.25.1.1\lib\MonoAndroid70\Xamarin.Android.Support.Fragment.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.Android.Support.Transition">
+      <HintPath>..\packages\Xamarin.Android.Support.Transition.25.1.1\lib\MonoAndroid70\Xamarin.Android.Support.Transition.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.RecyclerView">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.RecyclerView.25.1.1\lib\MonoAndroid70\Xamarin.Android.Support.v7.RecyclerView.dll</HintPath>
+    </Reference>
     <Reference Include="Xamarin.Android.Support.Vector.Drawable">
       <HintPath>..\packages\Xamarin.Android.Support.Vector.Drawable.25.1.1\lib\MonoAndroid70\Xamarin.Android.Support.Vector.Drawable.dll</HintPath>
     </Reference>
@@ -84,14 +90,14 @@
     <Reference Include="Xamarin.Android.Support.v7.AppCompat">
       <HintPath>..\packages\Xamarin.Android.Support.v7.AppCompat.25.1.1\lib\MonoAndroid70\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Android.Support.Transition">
-      <HintPath>..\packages\Xamarin.Android.Support.Transition.25.1.1\lib\MonoAndroid70\Xamarin.Android.Support.Transition.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.Android.Support.v7.RecyclerView">
-      <HintPath>..\packages\Xamarin.Android.Support.v7.RecyclerView.25.1.1\lib\MonoAndroid70\Xamarin.Android.Support.v7.RecyclerView.dll</HintPath>
-    </Reference>
     <Reference Include="Xamarin.Android.Support.Design">
       <HintPath>..\packages\Xamarin.Android.Support.Design.25.1.1\lib\MonoAndroid70\Xamarin.Android.Support.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Constraint.Layout.Solver">
+      <HintPath>..\packages\Xamarin.Android.Support.Constraint.Layout.Solver.1.0.2.2\lib\MonoAndroid70\Xamarin.Android.Support.Constraint.Layout.Solver.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Constraint.Layout">
+      <HintPath>..\packages\Xamarin.Android.Support.Constraint.Layout.1.0.2.2\lib\MonoAndroid70\Xamarin.Android.Support.Constraint.Layout.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -117,6 +123,116 @@
     <AndroidResource Include="Resources\layout\LoginFragmentContainer.axml" />
     <AndroidResource Include="Resources\layout\RegisterFragmentContainer.axml" />
     <AndroidResource Include="Resources\layout\ReadArticleFragmentContainer.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ab_bottom_solid_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ab_solid_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ab_stacked_solid_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ab_texture_tile_example.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ab_transparent_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btn_cab_done_default_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btn_cab_done_focused_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btn_cab_done_pressed_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\cab_background_bottom_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\cab_background_top_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\list_focused_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\list_pressed_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\menu_dropdown_panel_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progress_bg_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progress_primary_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progress_secondary_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\spinner_ab_default_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\spinner_ab_disabled_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\spinner_ab_focused_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\spinner_ab_pressed_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_selected_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_selected_focused_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_selected_pressed_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_unselected_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_unselected_focused_example.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_unselected_pressed_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ab_bottom_solid_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ab_solid_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ab_stacked_solid_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ab_texture_tile_example.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ab_transparent_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\btn_cab_done_default_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\btn_cab_done_focused_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\btn_cab_done_pressed_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\cab_background_bottom_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\cab_background_top_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\list_focused_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\list_pressed_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\menu_dropdown_panel_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progress_bg_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progress_primary_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progress_secondary_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\spinner_ab_default_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\spinner_ab_disabled_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\spinner_ab_focused_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\spinner_ab_pressed_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_selected_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_selected_focused_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_selected_pressed_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_unselected_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_unselected_focused_example.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_unselected_pressed_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ab_bottom_solid_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ab_solid_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ab_stacked_solid_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ab_texture_tile_example.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ab_transparent_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\btn_cab_done_default_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\btn_cab_done_focused_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\btn_cab_done_pressed_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\cab_background_bottom_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\cab_background_top_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\list_focused_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\list_pressed_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\menu_dropdown_panel_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progress_bg_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progress_primary_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progress_secondary_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\spinner_ab_default_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\spinner_ab_disabled_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\spinner_ab_focused_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\spinner_ab_pressed_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_selected_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_selected_focused_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_selected_pressed_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_unselected_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_unselected_focused_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_unselected_pressed_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ab_bottom_solid_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ab_solid_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ab_stacked_solid_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ab_texture_tile_example.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ab_transparent_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\btn_cab_done_default_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\btn_cab_done_focused_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\btn_cab_done_pressed_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\cab_background_bottom_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\cab_background_top_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\list_focused_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\list_pressed_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\menu_dropdown_panel_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\progress_bg_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\progress_primary_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\progress_secondary_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\spinner_ab_default_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\spinner_ab_disabled_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\spinner_ab_focused_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\spinner_ab_pressed_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tab_selected_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tab_selected_focused_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tab_selected_pressed_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tab_unselected_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tab_unselected_focused_example.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tab_unselected_pressed_example.9.png" />
+    <AndroidResource Include="Resources\drawable\ab_background_textured_example.xml" />
+    <AndroidResource Include="Resources\drawable\btn_cab_done_example.xml" />
+    <AndroidResource Include="Resources\drawable\progress_horizontal_example.xml" />
+    <AndroidResource Include="Resources\drawable\selectable_background_example.xml" />
+    <AndroidResource Include="Resources\drawable\spinner_background_ab_example.xml" />
+    <AndroidResource Include="Resources\drawable\tab_indicator_ab_example.xml" />
   </ItemGroup>
   <ItemGroup>
     <XamarinComponentReference Include="MySQL-Plugin">
@@ -139,10 +255,10 @@
   <Import Project="..\packages\Xamarin.Android.Support.Core.Utils.25.1.1\build\MonoAndroid70\Xamarin.Android.Support.Core.Utils.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Core.Utils.25.1.1\build\MonoAndroid70\Xamarin.Android.Support.Core.Utils.targets')" />
   <Import Project="..\packages\Xamarin.Android.Support.Media.Compat.25.1.1\build\MonoAndroid70\Xamarin.Android.Support.Media.Compat.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Media.Compat.25.1.1\build\MonoAndroid70\Xamarin.Android.Support.Media.Compat.targets')" />
   <Import Project="..\packages\Xamarin.Android.Support.Fragment.25.1.1\build\MonoAndroid70\Xamarin.Android.Support.Fragment.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Fragment.25.1.1\build\MonoAndroid70\Xamarin.Android.Support.Fragment.targets')" />
+  <Import Project="..\packages\Xamarin.Android.Support.Transition.25.1.1\build\MonoAndroid70\Xamarin.Android.Support.Transition.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Transition.25.1.1\build\MonoAndroid70\Xamarin.Android.Support.Transition.targets')" />
+  <Import Project="..\packages\Xamarin.Android.Support.v7.RecyclerView.25.1.1\build\MonoAndroid70\Xamarin.Android.Support.v7.RecyclerView.targets" Condition="Exists('..\packages\Xamarin.Android.Support.v7.RecyclerView.25.1.1\build\MonoAndroid70\Xamarin.Android.Support.v7.RecyclerView.targets')" />
   <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.25.1.1\build\MonoAndroid70\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.25.1.1\build\MonoAndroid70\Xamarin.Android.Support.Vector.Drawable.targets')" />
   <Import Project="..\packages\Xamarin.Android.Support.Animated.Vector.Drawable.25.1.1\build\MonoAndroid70\Xamarin.Android.Support.Animated.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Animated.Vector.Drawable.25.1.1\build\MonoAndroid70\Xamarin.Android.Support.Animated.Vector.Drawable.targets')" />
   <Import Project="..\packages\Xamarin.Android.Support.v7.AppCompat.25.1.1\build\MonoAndroid70\Xamarin.Android.Support.v7.AppCompat.targets" Condition="Exists('..\packages\Xamarin.Android.Support.v7.AppCompat.25.1.1\build\MonoAndroid70\Xamarin.Android.Support.v7.AppCompat.targets')" />
-  <Import Project="..\packages\Xamarin.Android.Support.Transition.25.1.1\build\MonoAndroid70\Xamarin.Android.Support.Transition.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Transition.25.1.1\build\MonoAndroid70\Xamarin.Android.Support.Transition.targets')" />
-  <Import Project="..\packages\Xamarin.Android.Support.v7.RecyclerView.25.1.1\build\MonoAndroid70\Xamarin.Android.Support.v7.RecyclerView.targets" Condition="Exists('..\packages\Xamarin.Android.Support.v7.RecyclerView.25.1.1\build\MonoAndroid70\Xamarin.Android.Support.v7.RecyclerView.targets')" />
   <Import Project="..\packages\Xamarin.Android.Support.Design.25.1.1\build\MonoAndroid70\Xamarin.Android.Support.Design.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Design.25.1.1\build\MonoAndroid70\Xamarin.Android.Support.Design.targets')" />
 </Project>

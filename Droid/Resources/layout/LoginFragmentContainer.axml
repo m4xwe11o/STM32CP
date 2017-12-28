@@ -1,15 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <TextView
-        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0C6DFE">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
         android:layout_height="wrap_content"
-        android:id="@+id/LoginFragment_TextView_1" />
-    <Button
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:text="Login" />
-</LinearLayout>
+        android:layout_centerInParent="true">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LoginFragment_Username"
+            android:hint="USERNAME" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LoginFragment_Password"
+            android:hint="PASSWORD" />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Login"
+            android:id="@+id/LoginFragment_LoginButton"
+            android:paddingTop="25dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:linksClickable="false"
+            android:layout_gravity="center_horizontal"
+            android:background="#ff0c6dfe"
+            android:textColor="#ffffffff" />
+    </LinearLayout>
+</RelativeLayout>

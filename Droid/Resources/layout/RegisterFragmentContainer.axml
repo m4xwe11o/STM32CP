@@ -1,15 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/RegisterFragment_TextView_1" />
-    <Button
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:text="Register" />
-</LinearLayout>
+    android:layout_height="match_parent"
+    android:background="#FF0C6DFE">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:paddingTop="20dp"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RegisterFragment_Firstname"
+            android:hint="Firstname" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RegisterFragment_Lastname"
+            android:hint="Lastname" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RegisterFragment_City"
+            android:hint="City" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RegisterFragment_Street"
+            android:hint="Street" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RegisterFragment_Email"
+            android:hint="Email" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RegisterFragment_Password"
+            android:hint="Password" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RegisterFragment_RepeatPassword"
+            android:hint="Repeat Password" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:layout_weight="0.8"
+            android:paddingTop="5dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Loremipsum" />
+        </ScrollView>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp">
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="100dp"
+                android:text="TEST" />
+        </LinearLayout>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Register"
+            android:id="@+id/RegisterFragment_RegisterButton"
+            android:paddingTop="5dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:linksClickable="false"
+            android:layout_gravity="center_horizontal"
+            android:background="#ff0c6dfe"
+            android:textColor="#ffffffff" />
+    </LinearLayout>
+</RelativeLayout>
